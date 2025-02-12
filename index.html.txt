@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>与猫娘对话</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h1>与猫娘对话 🐱</h1>
+    <div id="chat-box" class="chat-box">
+      <!-- 对话内容会动态插入到这里 -->
+    </div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="输入你想说的话..." autocomplete="off">
+      <button id="send-btn">发送</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
